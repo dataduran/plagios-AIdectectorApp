@@ -22,13 +22,13 @@ pip install -r requirements.txt
 ## Usage
 Run the tool using the following command:
 ```bash
-python detect.py --reference_path "path/to/reference_pdfs" --model "chosen_model" --student_path "path/to/student_pdfs"
+python main.py --gui 
 ```
 
 ### Arguments
 - `--reference_path`: Directory containing PDFs used as reference material.
 - `--model`: The detection model to be used (e.g., `GPT-4-detector`, `BERT-based-plagiarism-checker`).
-- `--student_path`: Directory containing student-submitted PDFs.
+- `--input_path`: Directory containing student-submitted PDFs.
 
 ## Output
 The tool generates a report with:
